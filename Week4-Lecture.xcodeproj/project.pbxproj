@@ -14,6 +14,8 @@
 		A049EDDA1CCA70BC00BF5724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A049EDD81CCA70BC00BF5724 /* LaunchScreen.storyboard */; };
 		A049EDE51CCA70BC00BF5724 /* Week4_LectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049EDE41CCA70BC00BF5724 /* Week4_LectureTests.swift */; };
 		A049EDF01CCA70BC00BF5724 /* Week4_LectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049EDEF1CCA70BC00BF5724 /* Week4_LectureUITests.swift */; };
+		A049EDFE1CCA74AE00BF5724 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049EDFD1CCA74AE00BF5724 /* TabBarViewController.swift */; };
+		A049EE001CCA7C7400BF5724 /* PerspectiveTransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049EDFF1CCA7C7400BF5724 /* PerspectiveTransformViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A049EDEB1CCA70BC00BF5724 /* Week4-LectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week4-LectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A049EDEF1CCA70BC00BF5724 /* Week4_LectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_LectureUITests.swift; sourceTree = "<group>"; };
 		A049EDF11CCA70BC00BF5724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A049EDFD1CCA74AE00BF5724 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A049EDFF1CCA7C7400BF5724 /* PerspectiveTransformViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerspectiveTransformViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				A049EDCF1CCA70BB00BF5724 /* AppDelegate.swift */,
 				A049EDD11CCA70BB00BF5724 /* ViewController.swift */,
 				A049EDD31CCA70BC00BF5724 /* Main.storyboard */,
+				A049EDFF1CCA7C7400BF5724 /* PerspectiveTransformViewController.swift */,
+				A049EDFD1CCA74AE00BF5724 /* TabBarViewController.swift */,
 				A049EDD61CCA70BC00BF5724 /* Assets.xcassets */,
 				A049EDD81CCA70BC00BF5724 /* LaunchScreen.storyboard */,
 				A049EDDB1CCA70BC00BF5724 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A049EE001CCA7C7400BF5724 /* PerspectiveTransformViewController.swift in Sources */,
 				A049EDD21CCA70BB00BF5724 /* ViewController.swift in Sources */,
+				A049EDFE1CCA74AE00BF5724 /* TabBarViewController.swift in Sources */,
 				A049EDD01CCA70BB00BF5724 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
